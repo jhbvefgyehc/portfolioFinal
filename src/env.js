@@ -6,6 +6,7 @@ export const env = createEnv({
     DATABASE_URL: z.string().url(),
     NEXTAUTH_SECRET: z.string().min(1),
     NEXTAUTH_URL: z.string().url().optional().default("http://localhost:3000"),
+    APP_NAME: z.string().optional().default("My Portfolio Tracker"),
 
     // ALL THESE ARE NOW OPTIONAL — app will never crash if missing
     ALPHAVANTAGE_API_KEY: z.string().optional(),
