@@ -103,7 +103,6 @@
 	"scripts": {
   "dev": "next dev",
   "build": "next lint",
-  "build": "next build",
   "start": "next start",
   "lint": "next lint"
 }
